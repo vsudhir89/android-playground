@@ -7,10 +7,10 @@
     tools:context="com.sample.sudhir.playground.MainActivity">
 
     <Button
-        android:id="@+id/btnPostOffice"
+        android:id="@+id/btnPostOfficeStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="@string/post_office"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -20,7 +20,7 @@
         android:id="@+id/btnPersonOne"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="@string/Alex"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="207dp"
         android:layout_marginLeft="78dp"
@@ -30,10 +30,22 @@
         android:id="@+id/btnPersonTwo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
+        android:text="@string/Vicky"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="207dp"
         android:layout_marginRight="78dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/btnEndPostalService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/end_postal_service"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnPostOfficeStart"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent" />
 
 
