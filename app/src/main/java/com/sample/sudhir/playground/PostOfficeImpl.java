@@ -91,4 +91,8 @@ public class PostOfficeImpl extends Observable implements PostOffice {
     public boolean isNotifyListEmpty() {
         return (peopleToNotify == null);
     }
+
+    public int getObserverCount() {
+        return peopleToNotify.size();
+    }
 }
